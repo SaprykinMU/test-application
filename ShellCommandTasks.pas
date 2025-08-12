@@ -88,7 +88,7 @@ begin
   Providers.Add(ITaskProvider(TaskProvider));
 
   TaskProvider := TShellCommandProvider.Create('Архивирование файлов командой tar.exe');
-  TaskProvider.Parameters.AddObject('Команда=tar -a -c -f archive.zip *.dcu',TObject(ptString));
+  TaskProvider.Parameters.AddObject('Команда=tar -a -c -f archive.zip *.dll',TObject(ptString));
   Providers.Add(ITaskProvider(TaskProvider));
 
 end;
