@@ -37,8 +37,6 @@ implementation
 function TFormTaskParams.Show(aParameters: TStrings): boolean;
 var
   i: Integer;
-  LRect: TRect;
-  X, Y: Integer;
 begin
   Parameters := aParameters;
   Left := Application.MainForm.Left + (Application.MainForm.Width - Width) div 2;
@@ -86,7 +84,6 @@ end;
 procedure TFormTaskParams.ValueListEditorEditButtonClick(Sender: TObject);
 var
   Path: string;
-  Row: Integer;
   Key: string;
   ParamIndex: Integer;
 begin

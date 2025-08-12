@@ -10,9 +10,11 @@ object FormMain: TFormMain
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  OldCreateOrder = True
   OnClose = FormClose
   OnCreate = FormCreate
   OnDestroy = FormDestroy
+  PixelsPerInch = 96
   TextHeight = 15
   object Splitter1: TSplitter
     Left = 0
@@ -106,7 +108,6 @@ object FormMain: TFormMain
         ItemHeight = 15
         TabOrder = 0
         OnDblClick = ListBoxResultDblClick
-        ExplicitWidth = 707
       end
     end
     object TabSheetLog: TTabSheet

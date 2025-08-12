@@ -11,10 +11,12 @@ object FormTaskParams: TFormTaskParams
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  OldCreateOrder = True
   Position = poDesigned
   DesignSize = (
     384
     314)
+  PixelsPerInch = 96
   TextHeight = 15
   object ValueListEditor: TValueListEditor
     Left = 2
@@ -27,8 +29,6 @@ object FormTaskParams: TFormTaskParams
       #1055#1072#1088#1072#1084#1077#1090#1088
       #1047#1085#1072#1095#1077#1085#1080#1077)
     OnEditButtonClick = ValueListEditorEditButtonClick
-    ExplicitWidth = 370
-    ExplicitHeight = 243
     ColWidths = (
       150
       222)
@@ -43,8 +43,6 @@ object FormTaskParams: TFormTaskParams
     Default = True
     ModalResult = 1
     TabOrder = 1
-    ExplicitLeft = 185
-    ExplicitTop = 260
   end
   object ButtonCancel: TButton
     Left = 290
@@ -56,8 +54,6 @@ object FormTaskParams: TFormTaskParams
     Caption = #1054#1090#1084#1077#1085#1072
     ModalResult = 2
     TabOrder = 2
-    ExplicitLeft = 282
-    ExplicitTop = 260
   end
   object ActionList1: TActionList
     Left = 112

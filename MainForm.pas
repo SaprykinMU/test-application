@@ -556,8 +556,6 @@ end;
 procedure TTaskUI.Show;
 const
   pbMax = 100;
-var
-  pbRect: TRect;
 begin
   FProgressBar := TProgressBar.Create(nil);
   with FProgressBar do
